@@ -5,15 +5,20 @@
 
 body {
     margin: 0;
+    padding: 0;
     background: #1B244A;
+    box-sizing: border-box;
 }
 
 .container {
+    margin: 0 auto;
+    max-width: 600px;
     display: flex;
     justify-content: space-around;
 }
 
 .score-section {
+    margin-top: 68px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,9 +28,11 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #EEEEEE;
     font-size: 40px;
+    margin: 0;
 }
 
 .score {
+    margin-top: 20px;
     width: 155px;
     height: 120px;
     background: #080001;
@@ -37,12 +44,32 @@ h3 {
     align-items: center;
     }
 
+.score-buttons {
+    margin-top: 26px;
+    display: flex;
+    gap: 8px;
+}
+
 button {
     background: none;
     border: #9AABD8 2px solid;
+    width: 45px;
+    height: 45px;
     border-radius: 5px;
     padding: 8px;
     font-family: 'Cursed Timer', sans-serif;
     font-size: 18px;
     color: #9AABD8;
 }
+
+button:hover {
+    background: #9AABD8;
+    color: 1B244A;
+    cursor: pointer;
+}
+
+button:active {
+    background: #9AABD8;
+    color: #F94F6D;
+}
+

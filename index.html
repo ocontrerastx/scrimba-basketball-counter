@@ -7,23 +7,23 @@
             <div class="score-section">
                 <h3>HOME</h3>
                 <div class="score">
-                    <p>0</p>
+                    <p id="score-home">0</p>
                 </div>
                 <div class="score-buttons">
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
+                    <button onclick="addOnePoint('home')">+1</button>
+                    <button onclick="addTwoPoints('home')">+2</button>
+                    <button onclick="addThreePoints('home')">+3</button>
                 </div>
             </div>
             <div class="score-section">
                 <h3>GUEST</h3>
                 <div class="score">
-                    <p>0</p>
+                    <p id="score-guest">0</p>
                 </div>
                 <div class="score-buttons">
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
+                    <button onclick="addOnePoint('guest')">+1</button>
+                    <button onclick="addTwoPoints('guest')">+2</button>
+                    <button onclick="addThreePoints('guest')">+3</button>
                 </div>
             </div>
         </div>
