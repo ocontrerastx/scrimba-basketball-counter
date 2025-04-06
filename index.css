@@ -53,13 +53,16 @@ h3 {
 button {
     background: none;
     border: #9AABD8 2px solid;
-    width: 45px;
-    height: 45px;
     border-radius: 5px;
     padding: 8px;
     font-family: 'Cursed Timer', sans-serif;
     font-size: 18px;
     color: #9AABD8;
+}
+
+.score-buttons > button {
+    width: 45px;
+    height: 45px;
 }
 
 button:hover {
